@@ -1,0 +1,23 @@
+curl -X POST -H 'Content-type':'application/json' -d '{"command":"restart"}' "127.0.0.1/api/job?apikey=38D2A5008AA646BA8FE889CEC100DC40"
+
+
+
+
+curl -X POST -H 'Content-type':'application/json' -d '{"command":"select","print":true}' "127.0.0.1/api/files/sdcard/batman~1.gco?apikey=38D2A5008AA646BA8FE889CEC100DC40"
+
+
+
+curl -X POST -H 'Content-type':'application/json' -d '{"command":"cancel"}' "127.0.0.1/api/job?apikey=38D2A5008AA646BA8FE889CEC100DC40"
+
+
+myMeasurement,tag1=value1,tag2=value2 fieldKey="fieldValue" 1556813561098000000
+
+curl -X GET -H 'Content-Type':'application/JSON' "127.0.0.1/api/printer?apikey=38D2A5008AA646BA8FE889CEC100DC40"
+
+mosquitto_pub -h [IP address] -t [topic] -m [message]
+
+mosquitto_sub -h [IP address] -t [topic]
+
+curl -X POST -F 'file=@./Batman_0.2mm_PLA_MK3S_23m.gcode' http://172.31.128.136/api/files/sdcard?apikey=38D2A5008AA646BA8FE889CEC100DC40
+
+command -h [IP address] -k [API key] -f [file]
