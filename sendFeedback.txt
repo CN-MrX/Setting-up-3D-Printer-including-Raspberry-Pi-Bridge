@@ -1,0 +1,2 @@
+{"done":false,"effectivePrint":false,"effectiveSelect":false,"files":{"local":{"name":"Batman_0.2mm_PLA_MK3S_23m.gcode","origin":"local","path":"Batman_0.2mm_PLA_MK3S_23m.gcode","refs":{"download":"http://172.31.128.136/downloads/files/local/Batman_0.2mm_PLA_MK3S_23m.gcode","resource":"http://172.31.128.136/api/files/local/Batman_0.2mm_PLA_MK3S_23m.gcode"}},"sdcard":{"name":"batman~1.gco","origin":"sdcard","path":"batman~1.gco","refs":{"resource":"http://172.31.128.136/api/files/sdcard/batman~1.gco"}}}}
+File successfully sent to printer.
